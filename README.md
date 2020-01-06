@@ -17,6 +17,7 @@ and functions are described below:
 3. Database: MySQL
     Instance: Amazon RDS
     Database Vendor- MySQL RDBMS
+
 The android device communicated with the EC2 servers using a bidirectional SSH.
 
 1. The servers use a Django based RESTful web services hosted on Nginx server.
