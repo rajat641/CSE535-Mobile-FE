@@ -21,3 +21,6 @@ and functions are described below:
 3. Database: MySQL
     Instance: Amazon RDS
     Database Vendor- MySQL RDBMS
+    
+The Detailed report on the project can be found here -
+[Group30_Project_Report.pdf](https://github.com/rajat641/CSE535-Mobile-FE/files/4025631/Group30_Project_Report.pdf)
