@@ -17,6 +17,9 @@ and functions are described below:
 3. Database: MySQL
     Instance: Amazon RDS
     Database Vendor- MySQL RDBMS
+    
+![image](https://user-images.githubusercontent.com/8374949/71812466-48f16600-309d-11ea-8502-85445db45975.png)
+
 
 The android device communicated with the EC2 servers using a bidirectional SSH.
 
