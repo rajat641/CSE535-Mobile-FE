@@ -29,7 +29,7 @@ The android device communicated with the EC2 servers using a bidirectional SSH.
 4. The user authentication and user matching logic is written in Django and accessed using REST APIs
 by the Android App.
     
-### A detailed report and important findings are available here:
+### A detailed report, video demo and important findings are available here:
 [Group30_Project_Report.pdf](https://github.com/rajat641/CSE535-Mobile-FE/files/4025631/Group30_Project_Report.pdf)
 
 Also, there is Video Demo here: https://drive.google.com/file/d/1rIJu-sVzkXVquBK_1EvPtXqsgg9J5Ymi/view
