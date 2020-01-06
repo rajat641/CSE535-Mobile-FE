@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Questions">
+
+    <ScrollView
+        android:layout_width="410dp"
+        android:layout_height="732dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Questions"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Applied Linear Algebra" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="156dp"
+                android:layout_height="197dp"
+                app:srcCompat="@drawable/q1" />
+
+            <Spinner
+                android:id="@+id/q1spinner"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="232dp"
+                android:layout_height="176dp"
+                app:srcCompat="@drawable/q2" />
+
+            <Spinner
+                android:id="@+id/q2spinner"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="175dp"
+                android:layout_height="112dp"
+                app:srcCompat="@drawable/q3" />
+
+            <Spinner
+                android:id="@+id/q3spinner"
+                android:layout_width="134dp"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                app:srcCompat="@drawable/q4" />
+
+            <Spinner
+                android:id="@+id/q4spinner"
+                android:layout_width="134dp"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                app:srcCompat="@drawable/q5" />
+
+            <Spinner
+                android:id="@+id/q5spinner"
+                android:layout_width="136dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Discrete Math" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="109dp"
+                app:srcCompat="@drawable/q6" />
+
+            <Spinner
+                android:id="@+id/q6spinner"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="212dp"
+                app:srcCompat="@drawable/q7" />
+
+            <Spinner
+                android:id="@+id/q7spinner"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="103dp"
+                app:srcCompat="@drawable/q8" />
+
+            <Spinner
+                android:id="@+id/q8spinner"
+                android:layout_width="138dp"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="118dp"
+                app:srcCompat="@drawable/q9" />
+
+            <Spinner
+                android:id="@+id/q9spinner"
+                android:layout_width="138dp"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="250dp"
+                android:layout_height="83dp"
+                app:srcCompat="@drawable/q10" />
+
+            <Spinner
+                android:id="@+id/q10spinner"
+                android:layout_width="138dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Calculus" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                app:srcCompat="@drawable/q11" />
+
+            <Spinner
+                android:id="@+id/q11spinner"
+                android:layout_width="142dp"
+                android:layout_height="22dp" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="307dp"
+                android:layout_height="122dp"
+                app:srcCompat="@drawable/q12" />
+
+            <Spinner
+                android:id="@+id/q12spinner"
+                android:layout_width="142dp"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="match_parent"
+                android:layout_height="107dp"
+                app:srcCompat="@drawable/q13" />
+
+            <Spinner
+                android:id="@+id/q13spinner"
+                android:layout_width="151dp"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="192dp"
+                android:layout_height="127dp"
+                app:srcCompat="@drawable/q14" />
+
+            <Spinner
+                android:id="@+id/q14spinner"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/q15" />
+
+            <Spinner
+                android:id="@+id/q15spinner"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Statistics" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="match_parent"
+                android:layout_height="146dp"
+                app:srcCompat="@drawable/q16" />
+
+            <Spinner
+                android:id="@+id/q16spinner"
+                android:layout_width="163dp"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="match_parent"
+                android:layout_height="156dp"
+                app:srcCompat="@drawable/q17" />
+
+            <Spinner
+                android:id="@+id/q17spinner"
+                android:layout_width="154dp"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="match_parent"
+                android:layout_height="143dp"
+                app:srcCompat="@drawable/q18" />
+
+            <Spinner
+                android:id="@+id/q18spinner"
+                android:layout_width="154dp"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="match_parent"
+                android:layout_height="135dp"
+                app:srcCompat="@drawable/q19" />
+
+            <Spinner
+                android:id="@+id/q19spinner"
+                android:layout_width="154dp"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="match_parent"
+                android:layout_height="179dp"
+                app:srcCompat="@drawable/q20" />
+
+            <Spinner
+                android:id="@+id/q20spinner"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="33dp" />
+
+            <Button
+                android:id="@+id/qsubmitbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="213dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
